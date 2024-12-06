@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //array
+        document.write("Hello Javascript");
+        document.write("<br> <br>");
+        
+        let arr = [1,2,3,4,5];
+        document.write("Total Length = ",arr.length, "<br>");
+        document.write(arr[2]);
+        document.write("<br>");
+        for(let a of arr){
+            document.write(a, "<br>");
+        
+        }
+        
+        document.write("<br> <br>");
+        // object
+        let obj = {
+            Name : "Kundan",
+            Course : "BCA",
+            Rollno : 229142,
+        }
+        document.write(obj.Name, " <br>");
+        for(let a in obj){
+            document.write(a + " : " + obj[a],  "<br>")
+        }
+
+    </script>
+</body>
+</html>

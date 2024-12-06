@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page Structure</title>
+    <style>
+        /* Header  */
+        table.header{
+            width: 100%;
+            border: 2 px solid black;
+            background-color: red;
+        }
+
+        /* H1 Headings  */
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+
+        /* box Home and Footer  */
+        .box{
+            height: 400px;
+            width: 100%;
+            background-color: yellow;
+        }
+
+        /* Servish  */
+        .servish td{
+            padding: 10px;
+        }
+        .servish img{
+            height: 200px;
+            width: 300px;
+        }
+        /* Contect us  */
+        .contect_us{
+            background-color: skyblue;
+            height: 300px;
+            width: 70%;
+
+        }
+        /* About  */
+        .about_us td{
+            padding: 20px;
+        }
+        .about_us img{
+            height: 400px;
+            width: 550px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <!-- Header  -->
+    <table class="header" border="">
+        <tr>
+            <td><a href="">Home</a></td>
+            <td><a href="">About</a></td>
+            <td><a href="">Servish</a></td>
+            <td><a href="">Contect Us</a></td>
+        </tr>
+    </table>
+
+    <!-- Home  -->
+    <div class="box"></div>
+
+    <!-- About us -->
+    <h1>About Us</h1>
+    <table class="about_us">
+        <tr>
+            <td><img src="Assest/Image's/customer-service.webp"></td>
+            <td><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae totam non labore, earum saepe maxime consectetur quas in dicta unde reiciendis numquam minus eveniet. Asperiores vero ratione dolor cupiditate, eos, doloremque sint impedit quia qui cum dolorem, sunt at quidem atque maiores aperiam exercitationem quisquam. Minus velit animi, deserunt reprehenderit dignissimos voluptas nobis eos vero nostrum consequatur doloribus exercitationem laboriosam perspiciatis placeat porro repudiandae eveniet sit? Deserunt veritatis vel fugiat ea quo quidem culpa, nesciunt tempore illum, nobis laborum aspernatur quae sapiente pariatur earum inventore delectus nam blanditiis explicabo est asperiores maiores? Pariatur ut quia quam minima perspiciatis inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magni assumenda quas nesciunt aperiam nam quis suscipit omnis corporis distinctio. Quasi ipsa nobis suscipit dolorum? Assumenda itaque omnis neque, praesentium eos natus accusamus a consequatur distinctio atque dignissimos nostrum officia ratione molestias temporibus similique dolor repellendus earum. Numquam officia necessitatibus beatae natus tempora, suscipit vitae doloribus ducimus reprehenderit maxime consequatur saepe omnis quaerat! Quaerat sapiente non, assumenda mollitia illum architecto ut neque in ex necessitatibus voluptatibus minus nam quasi ratione modi quisquam laudantium dolore nostrum soluta, facere sunt nobis maiores. Sint exercitationem voluptate ipsa vel dicta dolore et itaque dolores.
+            </p></td>
+        </tr>
+    </table>
+
+    <!-- servish  -->
+        <h1>Services</h1>
+        <table border="5" class="servish">
+            <tr>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+            </tr>
+            <tr>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+            </tr>
+            <tr>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+                <td><img src="Assest/Image's/customer-service.webp"></td>
+            </tr>
+        </table>
+
+        <!-- Contect us  -->
+        <h1>Contect Us</h1>
+        <div>
+            <table class="contect_us">
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" placeholder="Enter Your Name"</td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" placeholder="Enter Your First Name"</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="Enter Your Email "</td>
+                </tr>
+                <tr>
+                    <td>Phone No</td>
+                    <td><input type="number" placeholder="Enter Your Phone No "</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male<input type="radio" name="A">Female<input type="radio" name="A"></td>
+                </tr>
+                <td><input type="button" value="Register"></td>
+                
+            </table>
+        </div>
+
+        <!-- footer  -->
+        <div class="box"></div>
+</body>
+</html>
