@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+</head>
+<!-- use background color black  -->
+<body>
+    
+<!-- font color change -->
+<h1 align="center">Nested Table</h1>
+
+    
+    <!-- creat nested table hear -->
+    <table border="2" bgcolor="white" align="center">
+        <tr>
+            <td><b>Header column 1</b></td>
+            <td><b>Header column 2</b></td>
+            <td><b>Header column 3</b></td>
+            <td><b>Header column 4</b></td>
+        </tr>
+        <!-- <Start table Body here  -->
+        <tr>
+            <td>Row 2- item 1</td>
+            <td>Row 2- item 2</td>
+            <td rowspan="2"><b>Row 2- Nested Table 1</b>
+
+                <!-- Start Nested Table 1 -->
+                <table border="1">
+                    <tr>
+                        <td><b>Row 1 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td><b>Row 2 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td><b>Row 3 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                </table>
+                <!-- close Nested table 1 -->
+            </td>
+            <td>Row 2- item 4 <br>A second line</td>
+        </tr>
+        <tr>
+            <td><b>Row 3: Nested Table 2</b>
+                <!-- close nested table 2 -->
+                <table border="1">
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+                <!-- close nested table 2 -->
+            </td>
+            <td>Row 2- item 3</td>
+            <td rowspan="2">Row 3- item 3</td>
+        </tr>
+        <tr>
+            <td>Row 4- item 1</td>
+            <td>Row 4- item 2</td>
+            <td>Row 4- item 3</td>
+        </tr>
+        <!-- <close table Body here  -->
+
+
+        <!-- creat Table footer Here  -->
+        <tfoot>
+            <tr>
+                <td colspan="4">Row 5- last Row of outer Table</td>
+            </tr>
+        </tfoot>
+        <!-- close Tbale footer here  -->
+                
+
+    </table>
+</body>
+</html>

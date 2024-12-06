@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation bg color change</title>
+    <style>
+        body{
+    margin: 0;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+
+    animation-name: bg-color;
+    animation-duration: 3s ;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg-color{
+    25%{
+        background-color: rgb(255, 0, 0);
+    }
+    50%{
+        background-color: rgb(0, 38, 255);
+    }
+    75%{
+        background-color: rgb(166, 255, 0);
+    }
+    100%{
+        background-color: rgb(255, 0, 247);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+</body>
+</html>

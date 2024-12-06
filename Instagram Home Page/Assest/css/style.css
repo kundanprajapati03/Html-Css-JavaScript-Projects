@@ -1,0 +1,100 @@
+body{
+    margin: 10px 470px ;
+}
+.contaner{
+    height: 790px;
+    width: 420px;
+    background-color: red;
+}
+
+/* logo and followers styling */
+.box{
+    display: flex;
+}
+.box-1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 10px 0px 10px;
+    /* border: 4px solid blue; */
+    padding: 2px;
+}
+.box-2{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+}
+.box-2 h4{
+    display: inline;
+    margin-left: 20px;
+    font-family: arial;
+}
+.box-2 h4 span{
+    font-size: 25px;
+}
+
+/* name styling start here  */
+.name{
+    margin: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.bio{
+    margin: 2px;
+}
+/* Edit Profile buttion Styling  */
+.edit input{
+    height: 30px;
+    width: 412px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(208, 208, 208);
+    margin: 4px;
+}
+/* Highlights story styling  */
+.highlights{
+    display: flex;
+}
+.story{
+    height: 100px;
+    width: 90px;
+    text-align: center;
+}
+.story img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid rgb(202, 202, 202);
+    padding: 1px;
+}
+/* post heading styling  */
+.post-heading{
+    margin-top: 10px;
+    height: 50px;
+    width: 420px;
+    background-color: rgb(209, 209, 209);
+}
+.post-heading i{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.post-heading i:hover{
+    text-decoration: underline;
+    
+}
+/* post styling  */
+.post{
+    text-align: center;
+}
+.post img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Box</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: violet;
+    display: flex;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 30%;
+    position: relative;
+
+    /* animation property  */
+    animation-name: box-1;
+    animation-duration: 5s;
+    animation-delay: 2s all;
+    animation-iteration-count: infinite;
+}
+@keyframes box-1{
+    0%{
+        left: 0;
+    }
+    /* 20%{
+        left: 20%;
+    }
+    40%{
+        left: 40%;
+    }
+    60%{
+        left: 60%;
+    }
+    80%{
+        left: 80%;
+    } */
+    100%{
+        left: 92%;
+    } 
+}
+/* 3 animation styling start here  */
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 30%;
+    position: relative;
+    left: 84%;
+    
+    /* animation property  */
+    animation-name:box-2;
+    animation-duration: 5s;
+    animation-delay: 2s all;
+    animation-iteration-count: infinite;
+}
+ .box-3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 30%;
+    position: absolute;
+    
+    /* animation property  */
+    animation-name:box-2;
+    animation-duration: 5s;
+    animation-delay: 2s all;
+    animation-iteration-count: infinite;
+}
+               
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+</body>
+</html>

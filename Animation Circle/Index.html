@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.heart.com </title>
+    <style>
+    body{
+    margin: 0;
+    padding: 0;
+    }
+.heart{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+
+    /* border property  */
+    border-width: 10px;
+    border-style: double;
+    border-color: yellow;
+    border-radius: 50%;
+
+    /* animation property  */
+    animation-name: heart;
+    animation-duration: 5s;
+    animation-delay: 2s all;
+    animation-iteration-count: infinite;
+}
+@keyframes heart{
+    0%{
+        left: 0px;
+        top: 0;
+    }
+    25%{
+        left: 100px;
+        top: 0;
+    }
+    50%{
+        left: 100px;
+        top: 100px;
+    }
+    75%{
+        left: 0;
+        top: 100px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="heart"></div>
+</body>
+</html>

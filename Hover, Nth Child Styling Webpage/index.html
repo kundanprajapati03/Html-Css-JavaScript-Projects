@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            height: 100px;
+            width: 100%;
+            background-color: yellow;
+            text-align: center;
+        }
+        .navbar a{
+            font-size: 50px;
+            text-decoration: none;
+            margin-left: 40px;
+            padding: 10px;
+        }
+        .navbar a:hover{
+            background-color: red;
+            border-radius: 30%;
+            color: white;
+        }
+        li:first-child{
+            color: red;
+            font-size: 50px;
+            background-color: blue;
+        }
+        li:last-child{
+            color: blue;
+            font-size: 50px;
+            background-color: red;
+        }
+        li:nth-child(even){
+            color: blue;
+            background-color: brown;
+        }
+        li:nth-child(odd){
+            color: yellow;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <!-- useing hover  -->
+    <div class="navbar">
+        <nav>
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <a href="">Home</a>
+        </nav>
+    </div>
+
+    <!-- using first-child and last-child -->
+    <!--using nth-child(even) and nth-child(odd) -->
+    <ul>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+
+</body>
+</html>

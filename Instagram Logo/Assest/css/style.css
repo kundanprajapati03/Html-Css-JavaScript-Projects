@@ -1,0 +1,64 @@
+body{
+    margin: 80px 400px;
+}.box-1{
+    height: 500px;
+    width: 500px;
+
+    background: radial-gradient(
+        circle at 30% 107%,
+        #f58529 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%);
+    border-radius: 25%;
+
+    position: absolute;
+    margin: auto;
+}
+.box-2{
+    height: 300px;
+    width: 300px;
+
+
+    border: 30px solid white;
+    border-radius: 25%;
+
+    position: relative;
+    margin: auto;
+    top: 70px;
+}
+.round-1{
+    height: 100px;
+    width: 100px;
+
+
+    border: 30px solid white;
+    border-radius: 50%;
+
+    position: relative;
+    margin: auto;
+    top: 70px;
+}
+/* .round-1::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid white;
+    border-radius: 50%;
+    top: -60px;
+    right: -70px;
+} */
+.round-2{
+    width: 0px;
+    width: 0px;
+
+    border: 20px solid white;
+    border-radius: 50%;
+
+    position: relative;
+    margin: auto;
+    top: -130px;
+    left: 90px;
+}

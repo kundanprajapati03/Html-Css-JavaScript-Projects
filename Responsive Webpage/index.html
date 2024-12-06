@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: rgb(255, 0, 234);
+            height: 500px;
+            color: white;
+            font-size: 50px;
+            display: block;
+        }
+        @media (min-width:320px) and (max-width: 480px) 
+        {
+            #one{
+                display: block;
+                background-color: rgb(255, 0, 0);
+            }
+        }
+        @media (min-width: 481px) and (max-width: 768px)
+        {
+            #one{
+                display: block;
+                background-color: rgb(255, 238, 0);
+            }
+        } 
+        @media (min-width:769px) and (max-width: 1024px)
+        {
+            #one{
+                display: block;
+                background-color: rgb(0, 255, 13);
+            }
+        } 
+        @media (min-width:1025px) and (max-width: 1200px)
+        {
+            #one{
+                display: block;
+                background-color: rgb(17, 0, 255);
+            }
+        } 
+        @media (min-width:1200px)
+        {
+            #one{
+                display: block;
+                background-color: rgb(255, 0, 0);
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class="main" id="one">
+        Mobile Display
+        </div>
+
+    <div class="main" id="Two">
+        Ipods, Tablests Display
+    </div>
+
+    <div class="main" id="Three">
+        Small Screen, Laptops Display
+    </div>
+
+    <div class="main" id="Four">
+        Desktop, Large screen
+    </div>
+
+    <div class="main" id="Five"> 
+        Extra Large Screen
+    </div>
+</body>
+</html>
