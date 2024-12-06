@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: red;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+        }
+        a{
+            color: white;
+            font-family: arial;
+            font-size: 60px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 20px;
+        }
+        .drop-down-list-1{
+            height: 200px;
+            width: 150px;
+            background-color: black;
+            position: absolute;
+            left: 400px;
+            border-radius: 20px;
+            display: none;
+        }
+        .drop-down-list-1 a{
+            text-align: center;
+            font-size: 30px;
+            list-style-type: none;
+            text-decoration: none;
+            display: list-item;
+        }
+        .one:hover .drop-down-list-1{
+            display: block;
+        }
+        .drop-down-list-2{
+            height: 200px;
+            width: 150px;
+            background-color: black;
+            position: absolute;
+            left: 590px;
+            border-radius: 20px;
+            display: none;
+        }
+        .drop-down-list-2 a{
+            text-align: center;
+            font-size: 30px;
+            list-style-type: none;
+            text-decoration: none;
+            display: list-item;
+        }
+        .two:hover .drop-down-list-2{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="one"><a href="#">Hello</a>
+                <div class="drop-down-list-1">
+                    <a href="">hello-1</a>
+                    <a href="">hello-2</a>
+                    <a href="">hello-3</a>
+                    <a href="">hello-4</a>
+                </div>
+            </li>
+            <li class="two"><a href="#">Hello</a>
+                <div class="drop-down-list-2">
+                    <a href="">hello-1</a>
+                    <a href="">hello-2</a>
+                    <a href="">hello-3</a>
+                    <a href="">hello-4</a>
+                </div>
+            </li>
+            <li class="three"><a href="#">Hello</a></li>
+            <li class="four"><a href="#">Hello</a></li>
+            <li class="five"><a href="#">Hello</a></li>
+        </ul>
+    </div>
+</body>
+</html>

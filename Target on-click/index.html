@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box:target{
+            display: block;
+        }
+        .box{
+            display: none;
+            background-color: red;
+            border: 2px solid black;
+            height: 80px;
+            width: 400px;
+            text-align: center;
+            text-transform: uppercase;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .box .btn{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#id1">Click Here</a>
+
+    <div class="box" id="id1">
+        <h1>Good morning!!</h1>
+        <br>
+        <a href="#"><button class="btn">close</button></a>
+    </div>
+</body>
+</html>
